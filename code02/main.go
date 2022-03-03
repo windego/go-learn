@@ -2,6 +2,8 @@ package main
 
 func main() {
 	// indentDemo()
-	constDemo()
+	// constDemo()
+	// strDemo()
+	fmtDemo()
 
 }
