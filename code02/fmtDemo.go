@@ -23,4 +23,8 @@ func fmtDemo() {
 	fmt.Printf("p: %p\n", p)
 	fmt.Printf("x: %p\n", &x)
 
+	fmt.Printf("%q\n", "golang")
+	fmt.Printf("%x\n", "golang")
+	fmt.Printf("%X\n", "golang")
+
 }

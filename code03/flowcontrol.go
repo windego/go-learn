@@ -112,12 +112,25 @@ func flowcontrol() {
 	// 	fmt.Println("other")
 	// }
 
-	for i := 1; i <= 10; i++ {
-		fmt.Printf("i: %v\n", i)
-	}
+	// for i := 1; i <= 10; i++ {
+	// 	fmt.Printf("i: %v\n", i)
+	// }
 
-	for i := 10; i < 40; i++ {
-		fmt.Print(i, " ")
+	// for i := 10; i < 40; i++ {
+	// 	fmt.Print(i, " ")
+	// }
+	// i := 1
+	// for ; i <= 10; i++ {
+	// 	fmt.Printf("i: %v\n", i)
+	// }
+	// i := 1 // 初始条件
+	// for i <= 10 {
+	// 	fmt.Printf("i: %v\n", i)
+	// 	i++ // 结束条件
+	// }
+	var a = [5]int{1, 2, 3, 4, 5}
+	for i, v := range a {
+		fmt.Printf("i: %d, v: %v\n", i, v)
 	}
 
 }

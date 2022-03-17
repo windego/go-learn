@@ -4,6 +4,7 @@ func main() {
 	// indentDemo()
 	// constDemo()
 	// strDemo()
-	fmtDemo()
+	// fmtDemo()
+	operator()
 
 }
