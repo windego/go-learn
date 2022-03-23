@@ -1,6 +1,7 @@
 package main
 
 func main() {
-	flowcontrol()
+	// flowcontrol()
+	rangeDemo()
 
 }
